@@ -5,10 +5,11 @@ Property management portal is a web-based java project where house owners and cu
 
 To get a better understanding of the project, check out zillow.com.
 
-There are three roles in this system: Owner, Admin, and Customer.  
+There are four roles in this system: Owner, Admin, Customer, and Viewer.
+ - The viewer is the user who can only search and display properties. (Unregistered users)  
  - The owner is the user who owns the property and wants it to give it for rent/sale. The owner will upload all the details of the property such as the number of rooms, price etc... 
  - Admin manages all the users of the system. 
- - Customer is the one who is looking for a property. She/He can search the properties according to the requirements and get the results accordingly.
+ - Customer is the one who is looking for a property. She/He can search the properties according to the requirements and get the results accordingly and submit an application for the property.
 
 Dashboard Page for admins:
 - Display the last 10 properties rented.
@@ -35,6 +36,11 @@ Dashboard Page for owners:
 	* home type,
 	* by location.
 * Customers can submit an application to buy/rent the property.
+	* Once an application is submitted, owner will get an email.
+* Owners can display all applications and filter them
+	* by property,
+	* by submission date,
+	* by location.
 * Admin can manage customers and owners.
 *  Admin can Activate/Deactivate customers and owners.
 * Admin can reset passwords.
@@ -42,6 +48,9 @@ Dashboard Page for owners:
 	* Users should follow a password reset link.
 * Use [ECharts](https://echarts.apache.org/en/index.html) to create live charts for dashboards:
 *   All delete operations should be a soft deletion.
+* Customers can add properties to their favorite lists.
+	* Customers can have multiple favorite lists.
+* Customers can manage their own favorite lists.
 
 #### Sample Domain Models
 ---
@@ -60,7 +69,7 @@ Refer to zillow.com
 ---
 * Submit a detailed project plan for your daily performance (day/task/time) and submit it with your code.
 * Upload your work in one folder to the Sakai.
-* Get ready for your project presentation on Friday Sep 30th at 11:55 PM.
+* Deadline: Friday Sep 30th at 11:55 PM.
 * Project will be evaluated based on your code quality. It is possible that I will need to schedule meetings with some students about their source-code.
 
 #### Important Notes
