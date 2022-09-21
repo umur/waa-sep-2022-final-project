@@ -46,7 +46,7 @@ Dashboard Page for owners:
 * Admin can reset passwords.
 * Customers and owners can reset their password.
 	* Users should follow a password reset link.
-* Use [ECharts](https://echarts.apache.org/en/index.html) to create live charts for dashboards:
+* Use [ECharts](https://echarts.apache.org/en/index.html) to create live charts for dashboards.
 *   All delete operations should be a soft deletion.
 * Customers can add properties to their favorite lists.
 	* Customers can have multiple favorite lists.
