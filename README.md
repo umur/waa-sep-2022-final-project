@@ -29,7 +29,7 @@ Dashboard Page for owners:
 * Owners can see their own properties and manage them.
 	* Can unlist, and edit the property.
 * Owners and Customers can filter properties:
-	* by occupation,
+	* by price,
 	* by property type,
 	* by a number of rooms,
 	* home type,
