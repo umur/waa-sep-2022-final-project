@@ -69,7 +69,7 @@ Refer to zillow.com
 ---
 * Submit a detailed project plan for your daily performance (day/task/time) and submit it with your code.
 * Upload your work in one folder to the Sakai.
-* Deadline: Friday Sep 30th at 11:55 PM.
+* Deadline: Saturday Oct 1 at 11:55 PM.
 * Project will be evaluated based on your code quality. It is possible that I will need to schedule meetings with some students about their source-code.
 
 #### Important Notes
