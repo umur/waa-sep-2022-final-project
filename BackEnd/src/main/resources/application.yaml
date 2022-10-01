@@ -1,0 +1,31 @@
+pmp:
+    app:
+        jwtExpirationMs: 76300000
+        jwtSecret: knowledgeFactory
+
+spring:
+    application:
+        name: PMP-Backend
+
+    datasource:
+        password: 1
+        url: jdbc:postgresql://localhost:2222/postgres
+        username: postgres
+
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
+
+        properties:
+            hibernate:
+                dialect: org.hibernate.dialect.PostgreSQLDialect
+                format_sql: true
+        show-sql: true
+        defer-datasource-initialization: true
+
+    sql:
+        init:
+            mode: always
+
+    main:
+        allow-bean-definition-overriding: true
