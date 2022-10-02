@@ -1,0 +1,52 @@
+spring:
+  application:
+    name: WAA-Property-Management
+
+  datasource:
+    password: 1
+    url: jdbc:postgresql://localhost:2222/waafinal
+    username: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+
+    show-sql: true
+    defer-datasource-initialization: true
+
+  sql:
+    init:
+      mode: always
+
+
+  main:
+    allow-bean-definition-overriding: true
+
+
+  web:
+    resources:
+      static-locations: classpath:/static/
+
+server:
+  port: 9090
+
+#keycloak:
+#  realm: waa-property-management
+#  auth-server-url: http://localhost:8080
+#  resource: waa-property-management-springboot
+#  public-client: true
+#  bearer-only: true
+keycloak:
+  realm: test
+#  auth-server-url: http://10.200.29.124:8080
+  auth-server-url: http://localhost:8080
+  resource: waa-springboot
+  public-client: true
+  bearer-only: true
+  credentials:
+    secret: 6ehD2nNsYtSdNRvEJkGs8hZ8pCwbUWIy
