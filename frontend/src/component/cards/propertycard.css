@@ -1,0 +1,19 @@
+
+.heart-icon:hover{
+    color:white
+    
+}
+
+.heart-icon{
+    height: 200px;
+    
+    
+}
+#h{
+    margin:"5px" ;
+    font-size:"1px";
+    width:"30%"
+}
+.hoverzoom:hover{
+    width: "120%";
+}
